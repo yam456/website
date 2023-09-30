@@ -1,0 +1,65 @@
+
+body {
+    border: 2px solid black;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+#one {
+    background-color: green;
+    overflow: hidden;
+}
+
+#one1 {
+    float: left;
+    color: black;
+    font-size: 24px;
+    margin: 10px 20px; 
+}
+
+.two {
+    float: right;
+    color: black;
+    padding: 10px 20px; 
+    text-decoration: none;
+    margin: 10px 20px; 
+}
+
+
+#one3 {
+    padding: 20px;
+    text-align: justify;
+}
+
+#four {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#five,
+#six,
+#seven {
+    flex: 1;
+    background: lightgray;
+    padding: 20px;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    margin: 0 10px; 
+}
+
+
+#five h4,
+#six h4,
+#seven h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#five p,
+#six p,
+#seven p {
+    font-size: 14px;
+}
